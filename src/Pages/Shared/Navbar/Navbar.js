@@ -15,7 +15,7 @@ const Navbar = () => {
       <li><Link to='/projects'>Projects</Link></li>
       <li><Link to='/blog'>Blog</Link></li>
       <li><Link to='/contact'>Contact</Link></li>
-      <li><Link to='/'>Resume</Link></li>
+      
       </ul>
     </div>
     <Link className="btn btn-ghost normal-case text-xl">Shourov Hasan</Link>

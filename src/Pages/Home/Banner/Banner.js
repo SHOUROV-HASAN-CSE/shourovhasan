@@ -9,7 +9,7 @@ import gmail from '../../../assets/images/icon/gmail-icon.svg';
 
 const Banner = () => {
   return (
-    <div className='flex justify-around items-center mt-8'>
+    <div className='flex justify-around items-center mt-8 mb-16'>
       
       <div>
         <p><i>Hello everybody I am,</i></p>
