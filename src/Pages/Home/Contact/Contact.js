@@ -2,18 +2,18 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className='my-14'>
+    <div id='contact' className='my-14'>
     <h1 className='text-center text-5xl text-[#008140]'>Contact</h1> 
-    <div className='flex items-center'>
+    <div className='md:flex items-center'>
       
-      <div className='w-1/2 text-2xl text-[#008140]'>
+      <div className='md:w-1/2 text-2xl text-[#008140]'>
     <h2>Address: Gazipur shadar, gazipur, Dhaka</h2>
 
     <h2>Phone: +8801303754647</h2>
     <h2>Email: shourovhasancse@gmail.com</h2>
       </div>
 
-            <div className='w-1/2'>
+            <div className='md:w-1/2'>
                     <form className="card-body">
                         <div className="form-control">
                             <label className="label">
@@ -41,8 +41,10 @@ const Contact = () => {
                             <textarea className="textarea textarea-warning" placeholder="message"></textarea>
                             
                         </div>
-                        <div className="form-control mt-6 ">
-                            <input className="btn btn-success" type="submit" value="Submit" />
+                        <div className="form-control mt-6  ">
+                          <div className='flex justify-center'>
+                          <input className="w-1/3 btn btn-success" type="submit" value="Submit" />
+                          </div>
 
                           
                         </div>

@@ -15,7 +15,7 @@ const Banner = () => {
         <p><i>Hello everybody I am,</i></p>
         <h1 className='text-4xl font-semibold text-[#008140] mt-5'>SHOUROV HASAN</h1>
         <h3 className='text-2xl font-semibold mt-3'>Frontend Developer</h3>
-        <p className='my-2 text-lg font-medium text-gray-500'>Passionate about building first-class web applications. I always love to do clean and reusable code.</p>
+        <p className='my-2 text-base font-medium text-gray-500'>Passionate about building first-class web applications. I always love to do clean and reusable code.</p>
 
         <div className='my-5 flex items-center'>
           <a href="https://github.com/SHOUROV-HASAN-CSE"><img className='w-8' src={github} alt="" /></a>

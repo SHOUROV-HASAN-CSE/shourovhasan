@@ -24,9 +24,9 @@ const Navbar = () => {
     <ul className="menu menu-horizontal px-1 font-semibold">
       <li><Link to='/'>Home</Link></li>
       <li><Link to='/about'>About</Link></li>
-      <li><Link to='/projects'>Projects</Link></li>
+      <li><a href='#projects'>Projects</a></li>
       <li><Link to='/blog'>Blog</Link></li>
-      <li><Link to='/contact'>Contact</Link></li>
+      <li><a href='#contact'>Contact</a></li>
       
      
     </ul>

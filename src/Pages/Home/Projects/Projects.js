@@ -5,7 +5,7 @@ import creativephotography from '../../../assets/images/Product/creative-photogr
 
 const Projects = () => {
   return (
-    <div>
+    <div id='projects'>
       <h1 className='text-center text-5xl text-[#008140]'>Projects</h1>
         <div className=' mt-8 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
           
