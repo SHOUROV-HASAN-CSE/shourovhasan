@@ -8,14 +8,14 @@ const Contact = () => {
     <h1 className='text-center text-5xl text-[#008140]'>Contact</h1> 
     <div className='md:flex items-center'>
       
-      <div className='md:w-1/2 text-2xl text-[#008140]'>
-    <HiOutlineLocationMarker/>
-    <h2>Address: Gazipur shadar, gazipur, Dhaka</h2>
+      <div className='p-20 text-xl rounded-3xl bg-[#36d399]'>
+  
+    <h2><span className='font-bold'>Address:</span>  Gazipur shadar, gazipur, Dhaka</h2>
 
-    <HiOutlinePhone/>
-    <h2>Phone: +8801303754647</h2>
-    <HiOutlineMail/>
-    <h2>Email: shourovhasancse@gmail.com</h2>
+    
+    <h2><span className='font-bold'>Phone:</span> +8801303754647</h2>
+  
+    <h2><span className='font-bold'>Email:</span> shourovhasancse@gmail.com</h2>
       </div>
 
             <div className='md:w-1/2'>

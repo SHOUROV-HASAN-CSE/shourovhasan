@@ -11,7 +11,7 @@ const Banner = () => {
   return (
     <div className='md:flex justify-around items-center mt-8 mb-16'>
       
-      <div>
+      <div className='p-10 md:p-0'>
         <p><i>Hello everybody I am,</i></p>
         <h1 className='text-4xl font-semibold text-[#008140] mt-5'>SHOUROV HASAN</h1>
         <h3 className='text-2xl font-semibold mt-3'>Frontend Developer</h3>
