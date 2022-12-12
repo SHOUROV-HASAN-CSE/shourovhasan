@@ -1,4 +1,6 @@
 import React from 'react';
+import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from "react-icons/hi";
+
 
 const Contact = () => {
   return (
@@ -7,9 +9,12 @@ const Contact = () => {
     <div className='md:flex items-center'>
       
       <div className='md:w-1/2 text-2xl text-[#008140]'>
+    <HiOutlineLocationMarker/>
     <h2>Address: Gazipur shadar, gazipur, Dhaka</h2>
 
+    <HiOutlinePhone/>
     <h2>Phone: +8801303754647</h2>
+    <HiOutlineMail/>
     <h2>Email: shourovhasancse@gmail.com</h2>
       </div>
 

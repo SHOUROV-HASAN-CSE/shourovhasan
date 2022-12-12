@@ -2,10 +2,10 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
       <h1 className='text-center text-5xl text-[#008140]'>About</h1>
 
-      <div className='flex items-center my-6'>
+      <div className='md:flex items-center my-6'>
       <div className='w-1/2'>
       <h1 className='text-4xl font-semibold text-[#008140] mb-5'>SHOUROV HASAN</h1>
         <p className='font-semibold text-gray-500'>Determined Junior Developer with the ability to adapt in both self-starting and collaborative environments. Specialize in Designing, Developing, and Debugging. Passionate about building first-class web applications. I always love to do clean and reusable code.</p>

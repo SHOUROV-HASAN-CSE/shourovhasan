@@ -1,12 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
+import Cameracorner from "../../Pages/Details/Cameracorner";
+import Creativephotography from "../../Pages/Details/Creativephotography";
+import Skillshare from "../../Pages/Details/Skillshare";
 
 import Error from "../../Pages/Error/Error";
-import About from "../../Pages/Home/About/About";
 import Blog from "../../Pages/Home/Blog/Blog";
-import Contact from "../../Pages/Home/Contact/Contact";
 import Home from "../../Pages/Home/Home/Home";
-import Projects from "../../Pages/Home/Projects/Projects";
+
 
 
 
@@ -20,21 +21,25 @@ const router = createBrowserRouter([
         element:<Home/>
       },
       {
-        path:'/about',
-        element:<About/>
-      },
-      {
-        path:'/projects',
-        element:<Projects/>
-      },
-      {
         path:'/blog',
         element:<Blog/>
       },
+    
       {
-        path:'/contact',
-        element:<Contact/>
-      }
+        path:'/skillshare',
+        element:<Skillshare/>
+      },
+    
+      {
+        path:'/cameracorner',
+        element:<Cameracorner/>
+      },
+    
+      {
+        path:'/creativephotography',
+        element:<Creativephotography/>
+      },
+    
     ] 
   },
   {

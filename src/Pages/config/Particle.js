@@ -24,7 +24,7 @@ const particlesLoaded = useCallback(async container => {
               "autoPlay": true,
               "background": {
                 "color": {
-                  "value": "#e3e3e3"
+                  "value": "#ececec"
                 },
                 "image": "",
                 "position": "",
