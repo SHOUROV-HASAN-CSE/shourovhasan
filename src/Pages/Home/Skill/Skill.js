@@ -12,7 +12,10 @@ import github from '../../../assets/images/icon/github-icon-1.svg';
 
 const Skill = () => {
   return (
-    <div className='flex gap-20 justify-center my-24 '>
+ <div className='flex justify-center my-24 '>
+
+      <div className='grid md:gap-20 gap-6 grid-cols-4 md:grid-cols-10'>
+
       <img className='w-14' src={react} alt="" />
       <img className='w-14' src={javascript} alt="" />
       <img className='w-14' src={firebase} alt="" />
@@ -23,7 +26,12 @@ const Skill = () => {
       <img className='w-14' src={github} alt="" />
       <img className='w-12' src={figma} alt="" />
       <img className='w-14' src={bootstrap} alt="" />
+
+      </div>
+
+      
     </div>
+
   );
 };
 
