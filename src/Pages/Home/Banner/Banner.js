@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../../assets/images/banner/unnamed.webp';
+import image from '../../../assets/images/banner/shourov.jpg';
 import github from '../../../assets/images/icon/github-icon-1.svg';
 import linkedin from '../../../assets/images/icon/linkedin-icon-2.svg';
 import facebook from '../../../assets/images/icon/facebook-2020-2-1.svg';
@@ -14,7 +14,7 @@ const Banner = () => {
       <div className='p-10 md:p-0'>
         <p><i>Hello everybody I am,</i></p>
         <h1 className='text-4xl font-semibold text-[#008140] mt-5'>SHOUROV HASAN</h1>
-        <h3 className='text-2xl font-semibold mt-3'>Frontend Developer</h3>
+        <h3 className='text-2xl font-semibold mt-3'>Fullstack Developer</h3>
         <p className='my-2 text-base font-medium text-gray-500'>Passionate about building first-class web applications. I always love to do clean and reusable code.</p>
 
         <div className='my-5 flex items-center'>
