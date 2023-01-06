@@ -1,8 +1,28 @@
 import React from 'react';
-import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from "react-icons/hi";
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
+
+
+  const handleOnClick = event =>{
+    event.preventDefault();
+    const form = event.target;
+    
+    emailjs.sendForm('service_6owftgg', 'template_2c0y6qe', event.target, 'pIkDelB_g73dbrAqs')
+    .then((result) => {
+        console.log(result.text);
+        form.reset()
+    }, (error) => {
+        console.log(error.text);
+    });
+   
+    form.reset()
+  }
+
+
+
+
   return (
     <div id='contact' className='my-14'>
     <h1 className='text-center text-5xl text-[#008140]'>Contact</h1> 
@@ -19,12 +39,12 @@ const Contact = () => {
       </div>
 
             <div className='md:w-1/2'>
-                    <form className="card-body">
+                    <form onSubmit={handleOnClick} className="card-body">
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Name</span>
                             </label>
-                            <input type="text" name='email' placeholder="Name" className="input input-bordered input-primary" />
+                            <input type="text" name='name' placeholder="Name" className="input input-bordered input-primary" />
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -36,14 +56,14 @@ const Contact = () => {
                             <label className="label">
                                 <span className="label-text">Subject</span>
                             </label>
-                            <input type="text" name='password' placeholder="Subject" className="input input-bordered input-error" />
+                            <input type="text" name='subject' placeholder="Subject" className="input input-bordered input-error" />
                             
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">message</span>
                             </label>
-                            <textarea className="textarea textarea-warning" placeholder="message"></textarea>
+                            <textarea type="text" name='message' className="textarea textarea-warning" placeholder="message"></textarea>
                             
                         </div>
                         <div className="form-control mt-6  ">
