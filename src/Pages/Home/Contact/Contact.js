@@ -44,26 +44,26 @@ const Contact = () => {
                             <label className="label">
                                 <span className="label-text">Name</span>
                             </label>
-                            <input type="text" name='name' placeholder="Name" className="input input-bordered input-primary" />
+                            <input type="text" name='name' placeholder="Name" className="input input-bordered input-primary" required/>
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Email</span>
                             </label>
-                            <input type="text" name='email' placeholder="Email" className="input input-bordered input-success" />
+                            <input type="text" name='email' placeholder="Email" className="input input-bordered input-success" required/>
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Subject</span>
                             </label>
-                            <input type="text" name='subject' placeholder="Subject" className="input input-bordered input-error" />
+                            <input type="text" name='subject' placeholder="Subject" className="input input-bordered input-error" required/>
                             
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">message</span>
                             </label>
-                            <textarea type="text" name='message' className="textarea textarea-warning" placeholder="message"></textarea>
+                            <textarea type="text" name='message' className="textarea textarea-warning" placeholder="message" required></textarea>
                             
                         </div>
                         <div className="form-control mt-6  ">
